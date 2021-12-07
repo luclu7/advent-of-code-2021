@@ -1,7 +1,6 @@
 const { log } = require('console');
 const fs = require('fs');
 
-const text = fs.readFileSync("input.txt").toString("utf-8");
 const inputArray = text.split("\n");
 
 let map = new Array(1000);

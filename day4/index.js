@@ -34,6 +34,7 @@ try {
             card.forEach((line, i2) => {
                 line.forEach((chiffre, i3) => {
                     if (chiffre == n) {
+                        log(`${n} found at ${i0} ${i1} ${i2} ${i3}`);
                         cards[i1][i2][i3] = "X";
                     }
                 });
